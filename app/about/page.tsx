@@ -112,7 +112,7 @@ Sithalapakkam, Medavakkam, Velachery, Sholinganallur, OMR, Tambaram, Thiruvanmiy
   transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
 >
   <p className="text-white font-semibold text-sm">
-    Trusted & Professional Electrical Service
+    Trusted & Professional Electrician
   </p>
 </motion.div>
 
