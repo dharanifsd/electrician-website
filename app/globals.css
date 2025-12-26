@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+
+/* Global dark theme */
+html,
+body {
+  background-color: #000;
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+@layer utilities {
+  @keyframes neonGlow {
+    0% {
+      box-shadow: 0 0 15px rgba(0,255,255,0.25),
+                  inset 0 0 10px rgba(0,255,255,0.15);
+    }
+    50% {
+      box-shadow: 0 0 30px rgba(0,255,255,0.45),
+                  inset 0 0 18px rgba(0,255,255,0.25);
+    }
+    100% {
+      box-shadow: 0 0 15px rgba(0,255,255,0.25),
+                  inset 0 0 10px rgba(0,255,255,0.15);
+    }
+  }
+
+  .animate-neonGlow {
+    animation: neonGlow 5s ease-in-out infinite;
+  }
+}
+
