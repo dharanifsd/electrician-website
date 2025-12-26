@@ -45,6 +45,7 @@ export default function CTA() {
         >
           <a
             href="https://wa.me/9176493719?text=Hi%2C%20I%20need%20electrical%20service"
+            target="_blank"
             className="px-7 py-3 rounded-full bg-cyan-400 text-black font-semibold hover:shadow-[0_0_35px_rgba(0,255,255,0.5)] transition"
           >
             WhatsApp Now
